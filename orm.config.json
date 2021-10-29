@@ -1,11 +1,11 @@
 {
   
-  "type":"postgres",
-  "username":"postgres",
-  "password":"pos1234",
+  "type":"mysql",
+  "username":"root",
+  "password":"root",
   "host":"localhost",
-  "port":"5432",
-  "database": "bookstore",
+  "port":"3306",
+  "database": "chess_app",
   "synchronize":true,
   "entities": ["src/**/**/*.entity{.ts,.js}"],
   "migrations": ["src/database/migrations/*{.ts,.js}"],
